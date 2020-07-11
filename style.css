@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    
+    }
+h2{
+    display: inline-block;
+    background-color: skyblue;
+    width: 120px;
+    height: 30px;
+   
+}
+h1{
+    background-color: bisque;
+    color: black;
+    text-decoration: underline brown;
+    height: 60px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-style: bold;
+}
+body{
+    text-align: center;
+    background-color: oldlace;
+    
+}
+button{
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 800px){
+    html,body{
+    
+            overflow: hidden;
+    }
+    
+     }
